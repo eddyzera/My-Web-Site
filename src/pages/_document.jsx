@@ -1,0 +1,21 @@
+import NextDocument, { Html, Head, Main, NextScript } from 'next/document'
+import { ColorModeScript } from '@chakra-ui/react'
+
+export default class Document extends NextDocument {
+  render() {
+    return (
+      <Html>
+        <Head>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet" />
+        <title>Ed Silva Portfolio</title>
+        </Head>
+        <body>
+          <ColorModeScript /> 
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    )
+  }
+}
