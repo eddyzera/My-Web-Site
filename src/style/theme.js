@@ -33,14 +33,25 @@ const cunstomTheme = extendTheme({
                 cursor: 'pointer'
             },
 
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6: {
+            h1: {
                fontFamily: 'heading',
-               color: 'white'
+               color: 'white',
+               fontSize: '4rem',
+               fontWeight: '700'
+            },
+
+            h2: {
+                fontFamily: 'heading',
+                color: 'white',
+                fontSize: '2rem',
+                fontWeight: '700'
+            },
+
+            h3: {
+                fontFamily: 'heading',
+                color: 'white',
+                fontSize: '2rem',
+                fontWeight: '500'
             },
 
             p: {

@@ -1,10 +1,10 @@
 import React from 'react'
-import {} from '@chakra-ui/react'
+import { Box } from '@chakra-ui/react'
 
 export default function Header() {
     return (
-        <div>
-            
-        </div>
+        <Box  as="header">
+            <h1>Ola mundo</h1>
+        </Box>
     )
 }
