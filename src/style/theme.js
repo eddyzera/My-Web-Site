@@ -56,7 +56,7 @@ const cunstomTheme = extendTheme({
 
             p: {
                 fontFamily: 'mono',
-                color: 'white'
+                color: '#a0aec0'
             }
         }
     },
