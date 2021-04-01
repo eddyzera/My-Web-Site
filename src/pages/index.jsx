@@ -3,6 +3,7 @@ import Head from 'next/head'
 import { Container } from '@chakra-ui/react'
 import Header from '../components/Header'
 import Baner from '../components/Baner'
+import About from '../components/About'
 
 export default function Home({ data }) {
 
@@ -14,6 +15,7 @@ export default function Home({ data }) {
       <Container maxW="container.lg">
         <Header value={data} />
         <Baner />
+        <About />
       </Container>
     </>
   )

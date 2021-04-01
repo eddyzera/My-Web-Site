@@ -57,7 +57,9 @@ const cunstomTheme = extendTheme({
             p: {
                 fontFamily: 'mono',
                 color: '#a0aec0'
-            }
+            },
+
+            scrollbarColor: 'bg'
         }
     },
 })

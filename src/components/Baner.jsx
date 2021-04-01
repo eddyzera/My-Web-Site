@@ -15,6 +15,8 @@ export default function Baner() {
                 display="flex"
                 flexDirection="column"
                 alignItems={isMobile ? 'center': 'flex-start'}
+                height="75vh"
+                justifyContent="center"
             >
                 <Text color="purple" >Ola eu sou</Text>
                 <Heading 
