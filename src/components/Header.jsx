@@ -10,9 +10,8 @@ import {
     FaLinkedinIn,
     FaGoogle
 } from "react-icons/fa"
-import Link from 'next/link'
 
-export default function Header({ value }) {
+export default function Header() {
 
     const [isMobile] = useMediaQuery('(max-width: 740px)')
 
@@ -26,7 +25,7 @@ export default function Header({ value }) {
             padding="2rem 0"
         >
             <Avatar 
-                src={value.avatar_url}
+                src="profile-pic.png"
                 size="xl"
                 margin="10px 0"
                 bg="none"

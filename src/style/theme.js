@@ -59,7 +59,10 @@ const cunstomTheme = extendTheme({
                 color: '#a0aec0'
             },
 
-            scrollbarColor: 'bg'
+            a: {
+                fontFamily: 'mono',
+                color: '#a0aec0'
+            },
         }
     },
 })

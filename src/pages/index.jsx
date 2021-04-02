@@ -4,6 +4,8 @@ import { Container } from '@chakra-ui/react'
 import Header from '../components/Header'
 import Baner from '../components/Baner'
 import About from '../components/About'
+import Card from '../components/Card'
+import Footer from '../components/Footer'
 
 export default function Home({ data }) {
 
@@ -13,18 +15,22 @@ export default function Home({ data }) {
         <title>Ed Silva Portfolio</title>
       </Head>
       <Container maxW="container.lg">
-        <Header value={data} />
+        <Header />
         <Baner />
         <About />
+        <Card value={data} />
+        <Footer />
       </Container>
     </>
   )
 }
 
 export async function getServerSideProps(context) {
-  const response = await fetch('https://api.github.com/users/eddyzera', {
+
+  const response = await fetch('https://api.github.com/users/eddyzera/repos', {
     method: 'get'
   })
+
   const data = await response.json()
 
   return {
