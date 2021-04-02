@@ -24,6 +24,7 @@ export default function Footer() {
                         as="a" 
                         href="https://chakra-ui.com/"
                         marginLeft="5px"
+                        target="-_blank"
                     >
                         Chakra UI
                     </Text>

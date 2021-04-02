@@ -228,6 +228,7 @@ export default function Card({ value }) {
                                         <Text 
                                             as="a" 
                                             href={repo.html_url}
+                                            target="_blank"
                                         >
                                             {repo.name}
                                         </Text>
@@ -259,6 +260,7 @@ export default function Card({ value }) {
                                         <Text 
                                             as="a" 
                                             href={repo.html_url}
+                                            target="_blank"
                                         >
                                             {repo.name}
                                         </Text>
