@@ -2,7 +2,6 @@ import React from 'react'
 import { 
     Box,
     Avatar,
-    useMediaQuery,
     Icon
 } from '@chakra-ui/react'
 import { 
@@ -13,16 +12,19 @@ import {
 
 export default function Header() {
 
-    const [isMobile] = useMediaQuery('(max-width: 980px)')
-
     return (
         <Box 
             as="header"
             display="flex"
             alignItems="center"
             justifyContent="space-between"
-            flexDirection={isMobile ? 'column' : 'row'}
+            flexDirection='flex'
             padding="2rem 0"
+            sx={{
+                '@media (max-width: 940px)': {
+                    flexDirection: 'column'
+                }
+            }}
         >
             <Avatar 
                 src="profile-pic.png"

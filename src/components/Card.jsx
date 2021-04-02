@@ -45,20 +45,31 @@ export default function Card({ value }) {
                 display="flex"
                 alignItems="center"
                 justifyContent="center"
-                flexDirection={isMobile ? 'column' : 'row'}
+                flexDirection='row'
+                sx={{
+                    '@media (max-width: 940px)': {
+                        flexDirection: 'column'
+                    }
+                }}
                 width="100%"
             >
 
                 <Box
-                    width={isMobile ? '100%' : '50%'}
+                    width='50%'
                     padding="1rem 2rem"
                     border="1px solid #a0aec087"
                     borderRadius="5px"
                     maxHeight="800px"
                     minHeight="350px"
-                    marginRight={isMobile ? '0' : '30px'}
-                    marginBottom={isMobile ? '30px' : '0'}
+                    marginRight='30px'
                     bg="black"
+                    sx={{
+                        '@media (max-width: 940px)': {
+                            width: '100%',
+                            marginRight: '0',
+                            marginBottom: '30px'
+                        }
+                    }}
                 >
                     <Box>
                         <Heading 
@@ -185,12 +196,17 @@ export default function Card({ value }) {
                 </Box>
 
                 <Box
-                    width={isMobile ? '100%' : '50%'}
+                    width='50%'
                     padding="1rem 2rem"
                     border="1px solid #a0aec087"
                     borderRadius="5px"
                     minHeight="350px"
                     maxHeight="800px"
+                    sx={{
+                        '@media (max-width: 940px)': {
+                            width: '100%',
+                        }
+                    }}
                 >
                     <Heading 
                         as="h2"

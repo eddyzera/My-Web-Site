@@ -3,37 +3,52 @@ import {
     Box,
     Text,
     Heading,
-    useMediaQuery
 } from '@chakra-ui/react'
 
 export default function Baner() {
-    const [isMobile] = useMediaQuery('(max-width: 640px)')
 
     return (
         <Box as="section">
             <Box
                 display="flex"
                 flexDirection="column"
-                alignItems={isMobile ? 'center': 'flex-start'}
+                alignItems='flex-start'
                 height="75vh"
                 justifyContent="center"
+                sx={{
+                    '@media (max-width: 940px)': {
+                        alignItems: 'center'
+                    }
+                }}
             >
                 <Text color="purple" >Ola eu sou</Text>
                 <Heading 
                     as="h1" 
                     margin="20px 0"
-                    fontSize={isMobile ? '3rem' : '5rem'}
+                    fontSize='5rem'
                     color="purple"
                     transition="ease 0.9s"
+                    sx={{
+                        '@media (max-width: 940px)': {
+                            'font-size': '2rem'
+                        }
+                    }}
                 >
                     Edgar Silva
                 </Heading>
                 <Heading 
                     as="h2" 
                     margin="20px 0"
-                    fontSize={isMobile ? '1.4rem' : '3rem'}
+                    fontSize='3rem'
                     transition="ease 0.9s"
-                >Um aventureiro da Tecnologia</Heading>
+                    sx={{
+                        '@media (max-width: 940px)': {
+                            'font-size': '1.4rem'
+                        }
+                    }}
+                >
+                    Um aventureiro da Tecnologia
+                </Heading>
                 <Text 
                     margin="20px 0" 
                     maxWidth="800px"
