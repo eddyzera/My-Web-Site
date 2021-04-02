@@ -23,7 +23,7 @@ export default function Card({ value }) {
 
     const [reposPar, setReposPar] = useState([])
     const [reposInpar, setReposInpar] = useState([])
-    const [isMobile] = useMediaQuery('(max-width: 640px)')
+    const [isMobile] = useMediaQuery('(max-width: 940px)')
     
     useEffect(() => {
         function parInparRepos() {
