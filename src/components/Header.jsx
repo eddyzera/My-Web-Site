@@ -13,7 +13,7 @@ import {
 
 export default function Header() {
 
-    const [isMobile] = useMediaQuery('(max-width: 940px)')
+    const [isMobile] = useMediaQuery('(max-width: 980px)')
 
     return (
         <Box 
