@@ -43,7 +43,8 @@ export default function Baner() {
                     transition="ease 0.9s"
                     sx={{
                         '@media (max-width: 940px)': {
-                            'font-size': '1.4rem'
+                            'font-size': '1.4rem',
+                            textAlign: 'center'
                         }
                     }}
                 >
@@ -55,6 +56,11 @@ export default function Baner() {
                     fontSize="400"
                     fontSize="0.98rem"
                     transition="ease 0.9s"
+                    sx={{
+                        '@media (max-width: 940px)': {
+                            textAlign: 'center'
+                        }
+                    }}
                 >
                         Desbravar novas tecnologias e conhecer elas é o que me move, criar aplicações que venham empactar vidas faz o meu trabalho fazer sentido, sou amante dessa área pois sei que nunca irei saber de tudo sempre irei subir de level a cada dia.
                     </Text>

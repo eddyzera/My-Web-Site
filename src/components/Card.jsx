@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { 
     Box,
-    useMediaQuery,
     Heading,
     Divider,
     List,
@@ -23,7 +22,6 @@ export default function Card({ value }) {
 
     const [reposPar, setReposPar] = useState([])
     const [reposInpar, setReposInpar] = useState([])
-    const [isMobile] = useMediaQuery('(max-width: 980px)')
     
     useEffect(() => {
         function parInparRepos() {
@@ -217,7 +215,6 @@ export default function Card({ value }) {
                     </Heading>
                     <Divider />
                     <Box
-                        display={isMobile ? 'block' : 'flex'}
                         alignItems="center"
                         justifyContent="space-around"
                     >
