@@ -215,6 +215,7 @@ export default function Card({ value }) {
                     </Heading>
                     <Divider />
                     <Box
+                        display="flex"
                         alignItems="center"
                         justifyContent="space-around"
                     >
