@@ -62,7 +62,7 @@ export default function Baner() {
                         }
                     }}
                 >
-                        Desbravar novas tecnologias e conhecer elas é o que me move, criar aplicações que venham empactar vidas faz o meu trabalho fazer sentido, sou amante dessa área pois sei que nunca irei saber de tudo sempre irei subir de level a cada dia.
+                        Desbravar novas tecnologias e conhecer elas é o que me move, criar aplicações que venham impactar vidas faz o meu trabalho fazer sentido, sou amante dessa área pois sei que nunca irei saber de tudo sempre irei subir de level a cada dia.
                     </Text>
             </Box>
         </Box>
