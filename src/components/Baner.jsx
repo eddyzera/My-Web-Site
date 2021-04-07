@@ -48,7 +48,7 @@ export default function Baner() {
                         }
                     }}
                 >
-                    Um aventureiro da Tecnologia
+                    Um aventureiro em tecnologia
                 </Heading>
                 <Text 
                     margin="20px 0" 
@@ -62,7 +62,7 @@ export default function Baner() {
                         }
                     }}
                 >
-                        Desbravar novas tecnologias e conhecer elas é o que me move, criar aplicações que venham impactar vidas faz o meu trabalho fazer sentido, sou amante dessa área pois sei que nunca irei saber de tudo sempre irei subir de level a cada dia.
+                    Desbravar novas tecnologias e conhecê-las é o que me move. Criar aplicações que exerçam um impacto positivo na vida das pessoas faz o meu trabalho valer a pena. Eu amo essa área, mas sei que nunca saberei tudo sobre ela. No entanto, sei que, a cada dia, posso subir um degrau na escada do conhecimento.
                     </Text>
             </Box>
         </Box>

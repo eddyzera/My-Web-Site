@@ -31,7 +31,7 @@ export default function About() {
                 <Text
                     margin="20px 0"
                 >
-                    Tenho 25 anos, trabalho com desenvolvimento web há 2 anos, estou me formando em Análise e desenvolvimento de Sistemas pela FMU, procuro sempre aprender mais e praticar tudo aquilo que aprendo para sempre evoluir as minhas habilidades. Gosto muito de games e pretendo construir projetos voltados para essa área pois vejo um grande crescimento e gostaria de alguma forma fazer parte desse crescimento.
+                    Tenho 25 anos e trabalho na área de Desenvolvimento Web há 2 anos. Estou me formando em Análise e Desenvolvimento de Sistemas pela FMU. Procuro sempre aprender mais e praticar os novos aprendizados a fim de aprimorar minhas habilidades. Devido à minha paixão por games e ao fato de essa ser uma indústria bastante promissora, pretendo desenvolver projetos focados em jogos eletrônicos e, de alguma forma, fazer parte da evolução desse setor.
                 </Text>
             </Box>
         </Box>
